@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <defs>
+    <radialGradient id="glow" cx="24" cy="24" r="23" gradientUnits="userSpaceOnUse">
+      <stop offset="0.35" stop-color="#8b5cf6" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#8b5cf6" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <!-- background -->
+  <rect width="48" height="48" rx="10" fill="#14141c"/>
+  <!-- ambient glow -->
+  <circle cx="24" cy="24" r="23" fill="url(#glow)"/>
+  <!-- screen -->
+  <rect x="11" y="15" width="26" height="18" rx="3.5" fill="#1f1f2e" stroke="#e5e7eb" stroke-width="2"/>
+  <!-- play symbol -->
+  <path d="M21 19.5 L21 28.5 L29 24 Z" fill="#e5e7eb"/>
+  <!-- slash with dark outline for contrast -->
+  <line x1="9" y1="39" x2="39" y2="9" stroke="#14141c" stroke-width="7" stroke-linecap="round"/>
+  <line x1="9" y1="39" x2="39" y2="9" stroke="#ef4444" stroke-width="3.5" stroke-linecap="round"/>
+</svg>
