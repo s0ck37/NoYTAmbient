@@ -8,7 +8,7 @@ const timer = setInterval(() => {
 	if (cinematics) {
 
 		console.warn("[NoYTAmbient] Found cinematics container, hiding.");
-		cinematics.style.display = "none"; 
+		cinematics.style.setProperty("display", "none", "important");
 
 		clearInterval(timer);
 	}
